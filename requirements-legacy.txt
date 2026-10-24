@@ -1,0 +1,12 @@
+# Environment in which the ORIGINAL code runs (Python 3.8; tested with uv):
+#   uv python install 3.8 && uv venv -p 3.8 .venv-legacy
+#   VIRTUAL_ENV=.venv-legacy uv pip install -r legacy/requirements-legacy.txt \
+#       --extra-index-url https://download.pytorch.org/whl/cpu --index-strategy unsafe-best-match
+sdv==0.15.0
+rdt==0.6.4
+pandas==1.3.5
+numpy==1.21.6
+scikit-learn==1.0.2
+scipy==1.7.3
+numba<0.57
+pyts==0.12.0

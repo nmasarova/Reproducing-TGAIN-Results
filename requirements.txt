@@ -1,0 +1,10 @@
+# Tested with Python 3.13 (should work on Python >= 3.10)
+# CPU-only torch: pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+ctgan==0.12.1
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.5
+scipy>=1.13
+matplotlib>=3.8
+tabulate>=0.9
